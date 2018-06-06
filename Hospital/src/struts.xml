@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+<constant name="struts.i18n.encoding" value="utf-8"></constant>
+	<constant name="struts.devMode" value="true" />
+	<package name="a"  extends="json-default" namespace="/">
+		<action name="hospitalss_*" class="patientsAction" method="{1}">
+		
+		</action>
+		<action name="hospitals_*" class="chukumingAction" method="{1}">
+		
+		</action>
+	</package>
+</struts>    
